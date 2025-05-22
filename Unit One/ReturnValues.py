@@ -1,16 +1,8 @@
-emoticon = "v.v"
+def greet(input):
+    if "hello" in input:
+        print("Hello, there!")
+    else:
+        print("I'm not sure what you mean.")
 
-
-def main():
-    global emoticon
-    say("is anyone there?")
-    emoticon = ";D"
-    say("Oh, hi!")
-
-
-def say(phrase):
-    print(phrase + " " + emoticon)
-
-
-
-main()
+greeting = greet("hello, computer?")
+print(greeting)
